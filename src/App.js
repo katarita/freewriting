@@ -20,8 +20,9 @@ class App extends Component {
   // }
 
   componentWillUpdate(nextProps, nextState) {
-    console.log('nextProps, nextState', nextProps, nextState);
-    localStorage.setItem("notes", JSON.stringify(nextState.notes));
+    if (nextProps.notes !== this.state.notes) {
+      localStorage.setItem("notes", JSON.stringify(nextState.notes));
+    }
   }
 
 

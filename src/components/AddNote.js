@@ -16,8 +16,6 @@ class AddNote extends Component {
     let id = `${date.getFullYear()}-${date.getMonth()}-${date.getDate()}`;
     let todayNote = this.props.notes && this.props.notes[id] ? this.props.notes[id] : { note: '', symbols: 0, words: 0};
 
-    console.log('this.props.notes', this.props.notes);
-
     return (
       <div>
         <textarea className="form-element" value={todayNote.note} onChange={this.changeHandler.bind(this)} />
