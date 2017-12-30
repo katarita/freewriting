@@ -6,8 +6,11 @@
   border-radius: 6px;
   width: 100%;
   border: 1px solid #bdc3c7;
+  color: #34495e;
 }
 textarea {
+  min-width: 100%;
+  max-width: 100%;
   height: 200px;
   padding: 6px;
 }
