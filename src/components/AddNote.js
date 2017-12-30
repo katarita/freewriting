@@ -20,7 +20,7 @@ class AddNote extends Component {
 
     return (
       <div>
-        <textarea value={todayNote.note} onChange={this.changeHandler.bind(this)} />
+        <textarea className="form-element" value={todayNote.note} onChange={this.changeHandler.bind(this)} />
         {/* <div>Letters count: {todayNote.symbols}</div> */}
         <div>{todayNote.words} of 500 words</div>
       </div>
