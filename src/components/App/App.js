@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import AddNote from './components/AddNote';
+import AddNote from './../AddNote/AddNote';
 import './App.css';
 
 class App extends Component {
