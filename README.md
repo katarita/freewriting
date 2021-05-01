@@ -1,4 +1,4 @@
-Freewriting Web App is published [here](https://kate-kholyavkina.github.io/freewriting/), so go ahead and give it a try :)
+Freewriting Web App is published [here](https://katarita.github.io/freewriting/), so go ahead and give it a try :)
 
 ### Free Writing Technique
 
